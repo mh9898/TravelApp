@@ -29,7 +29,7 @@ function App(): JSX.Element {
         style={{
           backgroundColor: isDarkMode ? Colors.black : Colors.white,
         }}>
-        <Text>App.tsx</Text>
+        <Text>App.tsx pull request</Text>
       </View>
     </SafeAreaView>
   );
