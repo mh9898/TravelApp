@@ -15,6 +15,8 @@ import {
 } from 'react-native';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
+import Title from './src/components/Title';
+import Home from './src/screens/Home';
 
 function App(): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
@@ -30,6 +32,7 @@ function App(): JSX.Element {
           backgroundColor: isDarkMode ? Colors.black : Colors.white,
         }}>
         <Text>App.tsx pull request</Text>
+        <Home />
       </View>
     </SafeAreaView>
   );
